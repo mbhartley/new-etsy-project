@@ -57,6 +57,28 @@ body {
     }
 }
 
+.item-list {
+    width: 600px;
+    background-color: rgb(204, 204, 206);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.list-container {
+    margin-bottom: 40px;
+}
+
+.item {
+    width: 400px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.item-image {
+    width: 180px;
+    display: inline-block;
+}
+
 /* Supporting marketing content */
 .marketing {
     margin: 40px 0;
