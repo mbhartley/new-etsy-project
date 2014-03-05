@@ -52,12 +52,12 @@
 
         </div>
         <script type="text/template" id="gift-template">
-          <div class="gift-name"> <%= title %> </div>
+          <div class="gift-name"><%= this.model.get('title')%></div>
         </script>
 
         <script type="text/template" id="item-template">
           <div class="list-container">
-            <a href='#gift'>  
+            <a href= '#gift/<%=this.model.id%>' >  
             <div class="item"> <%= this.model.get('title') %> 
               <div class="item-price"> $<%= this.model.get('price') %> </div>
             </div>

@@ -23,6 +23,7 @@ var GiftView = Backbone.View.extend({
   },
 
   render: function(){
+    console.log('render render render')
   	this.$el.html(this.giftTemplate(this.model));
   }
 

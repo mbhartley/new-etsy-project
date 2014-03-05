@@ -1,4 +1,6 @@
-var ItemModel = Backbone.Model.extend();
+var ItemModel = Backbone.Model.extend({
+	idAttribute: "listing_id",
+});
 
 var ItemCollection = Backbone.Collection.extend({
 
